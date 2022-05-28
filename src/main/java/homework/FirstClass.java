@@ -13,6 +13,9 @@ public class FirstClass {
         boolean isEU = true;
         char currency = '€';
 
+                String.format("Galvas pilsēta ir %s", capital);
+        System.out.println(capital);
+
         System.out.println("Valsts nosaukums ir " + valstsNosaukums + " un tās iedzīvotāju skaits ir " + population + "cilvēku, tās " +
                 "galvas pilsēta ir " + capital + "kā arī oficiālā valsts valoda ir " + officialLanguage);
 
