@@ -86,17 +86,24 @@ public class HomeWorkTwo {
 
 
 
-        Scanner luksofors = new Scanner(System.in);
+        String color= "green";
+         color = scanner.next();
 
-        String krasa = "zala";
+        System.out.println("Which traffic light is on?");
 
-        System.out.println("Kada ir luksofora krasa?");
-
-        if (krasa == "zala"){
-            System.out.println("Vari iet pāri");
+        if (color == "green"){
+            System.out.println("You can go");
+        }else if(color == "orange") {
+            System.out.println("Better run across the street");
+        }else if(color == "red") {
+                System.out.println("Stay!");
+            }else
+            {
+                System.out.println("Look to the both ways and go");
+            }
         }
 
 
 
     }
-}
+
