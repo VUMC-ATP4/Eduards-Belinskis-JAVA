@@ -81,22 +81,39 @@ public class HomeWorkTwo {
             System.out.println("Numbers are equal");
         }
 
+        printBusinescard("Eduards", "Belinskis", "371 24531245", 1992);
+        printBusinescard("Karlis", "Zarins", "371 23256432", 1952);
+        printBusinescard("Ingmars", "Lidaka", "371 24523455", 1956);
 
+        luksofors("zala");
 
+        }
 
+        static void luksofors (String krasa){
+        if(krasa.equals("sarkana")){
+                System.out.println("Stavi!");
+            }else if(krasa.equals("dzeltena")){
+                System.out.println("Gatavojies");
+            }else if(krasa.equals("zala")){
+                System.out.println("Vari doties!");
+            }else{
+            System.out.println("Tada krasa nav luksofora");
+        }
 
+        }
 
-        Scanner luksofors = new Scanner(System.in);
+        static void printBusinescard(String name, String surname, String telephone, int yearOfBirth){
 
-        String krasa = "zala";
+            System.out.println("Vizitkarte");
+            System.out.println("###########");
+            System.out.println("Vards" + name);
+            System.out.println("Uzvards" + surname);
+            System.out.println("Telefona nr" + telephone);
+            System.out.println("Dzimsanas gads" + yearOfBirth);
+            System.out.println("###########");
 
-        System.out.println("Kada ir luksofora krasa?");
-
-        if (krasa == "zala"){
-            System.out.println("Vari iet pāri");
         }
 
 
-
     }
-}
+
