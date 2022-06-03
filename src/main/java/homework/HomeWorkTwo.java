@@ -7,6 +7,9 @@ public class HomeWorkTwo {
 
     public static void main(String[] args) {
 
+        System.out.println("Uzdevums 1");
+
+
         int x = 9;
 
         System.out.println((x>2));
@@ -18,6 +21,8 @@ public class HomeWorkTwo {
 
 
         int month = 4;
+
+        System.out.println("Uzdevums 2");
 
                 switch(month){
                     case 1:
@@ -58,6 +63,8 @@ public class HomeWorkTwo {
 
                 }
 
+        System.out.println("Uzdevums 3");
+
                 int a = 2;
                 int b = 3;
                 int c = 4;
@@ -81,17 +88,32 @@ public class HomeWorkTwo {
             System.out.println("Numbers are equal");
         }
 
+        System.out.println("Uzdevums 5");
+
         printBusinescard("Eduards", "Belinskis", "371 24531245", 1992);
         printBusinescard("Karlis", "Zarins", "371 23256432", 1952);
         printBusinescard("Ingmars", "Lidaka", "371 24523455", 1956);
 
+
+        System.out.println("Uzdevums 4");
+
+
         luksofors("zala");
+
+
+        System.out.println("Uzdevums 6");
 
         sum(5,5);
         System.out.println(sum(3,1));
 
+
+        System.out.println("Uzdevums 7");
+
         avg(1.4,1.6, 1.4 );
         System.out.println(avg(1.7, 6.5, 8.3));
+
+        businesCardTwo("Eduards ", "Belinskis ", "371 24531245  ", 1992);
+        businesCardTwo("janis ", "zarins " , "1356 ", 5242);
 
         }
 
@@ -118,6 +140,12 @@ public class HomeWorkTwo {
             System.out.println("Dzimsanas gads" + yearOfBirth);
             System.out.println("###########");
 
+
+
+        }
+
+        static String businesCardTwo(String name, String surname, String telephone, int yearOfBirth){
+            return "#######\nVizitkarte\nVārds:" + name + "\n Uzvārds:" + surname + "\nTelefona nr:" + telephone + "\nDzimšanas gads:" + yearOfBirth;
         }
 
         static int sum(int a, int b){
