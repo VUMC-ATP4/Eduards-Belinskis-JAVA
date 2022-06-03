@@ -87,6 +87,12 @@ public class HomeWorkTwo {
 
         luksofors("zala");
 
+        sum(5,5);
+        System.out.println(sum(3,1));
+
+        avg(1.4,1.6, 1.4 );
+        System.out.println(avg(1.7, 6.5, 8.3));
+
         }
 
         static void luksofors (String krasa){
@@ -114,6 +120,13 @@ public class HomeWorkTwo {
 
         }
 
+        static int sum(int a, int b){
+        return a + b;
+        }
+
+        static double avg(double a, double b, double c){
+        return (a + b + c)/3;
+        }
 
     }
 
