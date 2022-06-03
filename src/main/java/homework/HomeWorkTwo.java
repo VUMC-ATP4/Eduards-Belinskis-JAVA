@@ -112,6 +112,9 @@ public class HomeWorkTwo {
         avg(1.4,1.6, 1.4 );
         System.out.println(avg(1.7, 6.5, 8.3));
 
+        businesCardTwo("Eduards ", "Belinskis ", "371 24531245  ", 1992);
+        businesCardTwo("janis ", "zarins " , "1356 ", 5242);
+
         }
 
         static void luksofors (String krasa){
@@ -137,6 +140,12 @@ public class HomeWorkTwo {
             System.out.println("Dzimsanas gads" + yearOfBirth);
             System.out.println("###########");
 
+
+
+        }
+
+        static String businesCardTwo(String name, String surname, String telephone, int yearOfBirth){
+            return "#######\nVizitkarte\nVārds:" + name + "\n Uzvārds:" + surname + "\nTelefona nr:" + telephone + "\nDzimšanas gads:" + yearOfBirth;
         }
 
         static int sum(int a, int b){
