@@ -81,28 +81,38 @@ public class HomeWorkTwo {
             System.out.println("Numbers are equal");
         }
 
+        printBusinescard("Eduards", "Belinskis", "371 24531245", 1992);
+        printBusinescard("Karlis", "Zarins", "371 23256432", 1952);
+        printBusinescard("Ingmars", "Lidaka", "371 24523455", 1956);
 
+        luksofors("zala");
 
-
-
-
-        String color= "green";
-         color = scanner.next();
-
-        System.out.println("Which traffic light is on?");
-
-        if (color == "green"){
-            System.out.println("You can go");
-        }else if(color == "orange") {
-            System.out.println("Better run across the street");
-        }else if(color == "red") {
-                System.out.println("Stay!");
-            }else
-            {
-                System.out.println("Look to the both ways and go");
-            }
         }
 
+        static void luksofors (String krasa){
+        if(krasa.equals("sarkana")){
+                System.out.println("Stavi!");
+            }else if(krasa.equals("dzeltena")){
+                System.out.println("Gatavojies");
+            }else if(krasa.equals("zala")){
+                System.out.println("Vari doties!");
+            }else{
+            System.out.println("Tada krasa nav luksofora");
+        }
+
+        }
+
+        static void printBusinescard(String name, String surname, String telephone, int yearOfBirth){
+
+            System.out.println("Vizitkarte");
+            System.out.println("###########");
+            System.out.println("Vards" + name);
+            System.out.println("Uzvards" + surname);
+            System.out.println("Telefona nr" + telephone);
+            System.out.println("Dzimsanas gads" + yearOfBirth);
+            System.out.println("###########");
+
+        }
 
 
     }
